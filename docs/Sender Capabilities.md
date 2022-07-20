@@ -152,7 +152,7 @@ For example:
 
 The metadata attribute `urn:x-nmos:cap:meta:enabled` MAY be used to indicate Constraint Sets which do not apply to the current operating configuration of a Sender, but which can be enabled via some unspecified configuration mechanism.
 
-A Controller MUST NOT take into consideration a Constraint Set that has this attribute set to `false`, unless the Controller is capable of making the required configuration changes. Controllers MAY use this attribute as a hint to users that a Sender could be constrained subject to a reconfiguration.
+A Controller MUST NOT take into consideration a Constraint Set that has this attribute set to `false`, unless the Controller is capable of making the required configuration changes. Controllers MAY use this attribute as a hint to users that a Sender's operating point could become available subject to a reconfiguration.
 
 If a Constraint Set is enabled or the Sender does not support offline capabilities then this attribute MAY be omitted.
 
