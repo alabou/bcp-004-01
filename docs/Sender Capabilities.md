@@ -176,7 +176,7 @@ The Capabilities register in the [NMOS Parameter Registers][] includes a supplem
 IS-04 requires that the core [resource `version`](https://specs.amwa.tv/is-04/releases/v1.3/docs/2.1._APIs_-_Common_Keys.html#version) is updated when any attributes of the `caps` object or resource as a whole are changed.
 
 Other attributes of the Sender resource are likely to be updated more often than `caps`, for example the `subscription` attribute is updated to reflect a new connection.
-However, the capabilities of a SEnder could change over its lifetime, for example, as a result of reconfiguration by some other means.
+However, the capabilities of a Sender could change over its lifetime, for example, as a result of reconfiguration by some other means.
 This specification therefore defines a `version` attribute for the `caps` object itself, which reflects only when that object last changed.
 
 ## Behaviour: Senders
